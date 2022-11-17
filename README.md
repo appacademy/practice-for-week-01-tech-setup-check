@@ -32,6 +32,8 @@ Click the green "Create Repository" button to create the new repository.
 Next, open your terminal and navigate to the directory where you keep your
 coding projects (for example, `cd aa-projects`).
 
+__If you are a Windows user, make sure you are using your Ubuntu terminal.__
+
 > If you do not already have a projects directory, you can create one and then
 > navigate into it:
 >
@@ -49,13 +51,13 @@ the HTTPS link that you copied to your clipboard from GitHub:
 `git clone https://github.com/<YOUR-GITHUB_USERNAME>/tech-setup-check.git`
 
 This will clone your (currently empty) repository into a new __tech-setup-check__
-directory within your __aa-projects__ directory. You may be prompted to enter
-your GitHub PAT to complete GitHub authentication.
+directory within your __aa-projects__ directory. You may be prompted to enter your GitHub credentials (username and password).
 
-> _Note: The instructions above assume that you have configured GitHub using a
-> PAT. If you are using SSH, then make sure you are copying the SSH link from
-> GitHub, and enter your SSH key when prompted. See this resource for [help with
-> SSH]._
+> _Note: The instructions above assume that you have configured GitHub
+> authentication using Git Crendential Manager through the browser. If you are
+> using PAT, enter your PAT when prompted. If you are using SSH, then make sure
+> you are copying the SSH link from GitHub, and enter your SSH key when
+> prompted. See this resource for [help with SSH]._
 
 
 Open up the project in VS Code using the `code` command with the new
@@ -120,7 +122,7 @@ always check first!
 
 `git push origin main` ...to push the changes up to the remote repository
 
-Enter your PAT or SSH if prompted.
+Enter your GitHub credentials (or PAT or SSH) if prompted.
 
 ## Phase 5: Confirm that your Git, GitHub, and VS Code workflows are working
 
@@ -143,7 +145,7 @@ __If you got stuck in any of the phases above:__
     ready to share this information:
     - Your operating system (Windows or Mac)
     - Which phase you got stuck at (1-5)
-    - Any details you have about what didn't work (error messages, etc)
+    - Any details you have about what didn't work (error messages, etc.)
 
 ## What you've learned
 
